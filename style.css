@@ -1,0 +1,94 @@
+body{
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	background: url(img/back.jpg) no-repeat;
+	background-size: cover;
+	height: 1450px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-image: linear-gradient;
+}
+
+#title{
+	font-size: 45px;
+}
+
+#description{
+	font-size: 20px;
+}
+
+#body{
+	width: 600px;
+	padding: 30px;
+	margin: auto;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 15px;
+	text-align: left;
+	font-size: 20px;
+	color: white;
+}
+
+
+#name{
+	width: 560px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#email{
+	width: 560px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#number{
+	width: 560px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#dropdown{
+	width: 560px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#comment{
+	width: 580px;
+	border-radius: 5px;
+	border: none;
+	padding: 20px;
+}
+
+#submit{
+	width: 590px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 3%;
+	color: white;
+	background-color: green;
+	border: none;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imagewrap {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
